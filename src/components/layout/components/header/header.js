@@ -11,7 +11,7 @@ const useStyles = makeStyles({
   root: {
     backgroundColor: '#111',
     color: '#fff',
-    padding: 20,
+    padding: '20px',
     justifyContent: 'center'
   },
   logo: {

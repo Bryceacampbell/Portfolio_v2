@@ -85,7 +85,7 @@ const Gallery = () => {
                                 </CardActionArea>
                                 <CardContent>
                                     <Typography variant='h6'>{name}</Typography>
-                                    <Typography variant='body'>{project_type}</Typography>
+                                    <Typography variant='subtitle1'>{project_type}</Typography>
                                 </CardContent>
                             </Card>
                         </Slide>

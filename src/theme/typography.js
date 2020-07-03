@@ -32,7 +32,7 @@ export default {
     color: palette.text.secondary,
   },
   body1: {
-    color: palette.text.primary,
+    color: palette.text.secondary,
   },
   body2: {
     color: palette.text.secondary,

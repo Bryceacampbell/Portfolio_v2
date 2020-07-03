@@ -1,5 +1,7 @@
 import MuiSvgIcon from './MuiSvgIcon';
+import MuiCard from './MuiCard';
 
 export default {
-  MuiSvgIcon
+  MuiSvgIcon,
+  MuiCard
 };

@@ -39,7 +39,7 @@ const Featured = (props) => {
         <Container className={classes.root}>
             <Grid container spacing={3}>
                 <Grid item xs={12}>
-                    <Typography variant='h5'>
+                    <Typography variant='h6'>
                         Featured Projects
                 </Typography>
                 </Grid>
@@ -52,7 +52,7 @@ const Featured = (props) => {
                                 </CardActionArea>
                                 <CardContent>
                                     <Typography variant='h6'>{name}</Typography>
-                                    <Typography variant='body'>{project_type}</Typography>
+                                    <Typography variant='subtitle1'>{project_type}</Typography>
                                 </CardContent>
                             </Card>
                         </Slide>

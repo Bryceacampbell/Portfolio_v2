@@ -27,7 +27,7 @@ const testList = [
 
 const useStyles = makeStyles({
     image: {
-        height: 250
+        height: 200
     }
 })
 

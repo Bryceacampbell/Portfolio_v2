@@ -31,7 +31,7 @@ const Navbar = () => {
     return (
         <Grid container spacing={2}>
             {pages.map(({ name, url }) => (
-                <Grid key={name} item xs={4} >
+                <Grid key={name} item xs >
                     <Link to={url} className={classes.link}>
                         <Typography variant='h5'>{name}</Typography>
                     </Link>

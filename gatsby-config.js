@@ -10,7 +10,7 @@ module.exports = {
       options: {
         trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID
       }
-    }
+    },
     `gatsby-plugin-material-ui`,
     `gatsby-plugin-react-helmet`,
     {
@@ -38,4 +38,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
   ],
-}
+};

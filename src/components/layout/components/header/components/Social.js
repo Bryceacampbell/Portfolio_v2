@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import { Grid, Tooltip } from '@material-ui/core';
 import { Mail, Twitter, LinkedIn, GitHub } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/core/styles';
@@ -45,11 +44,11 @@ const Social = () => {
         <Grid container spacing={2}>
             {socialList.map(({ name, icon, tooltip, href }) => (
                 <Grid key={name} item xs>
-                    <Link href={href} target='_blank' className={classes.link}>
+                    <a href={href} target='_blank' className={classes.link}>
                         <Tooltip title={tooltip}>
                             {icon}
                         </Tooltip>
-                    </Link>
+                    </a>
                 </Grid>
             ))}
         </Grid>
